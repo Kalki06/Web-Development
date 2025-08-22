@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+}
+
+.author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
+
+#main {
+    margin-top: 164px;
+    width: 336px;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+    justify-items: center;
+    align-items: center;
+}
+
+#img img {
+    height: 152px;
+    width: 336px;
+    margin: 16px;
+    border-radius: 8px;
+}
+
+#header span {
+    margin-top: 22px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 336px;
+}
+
+#button {
+    color: #7C19EE;
+    background-color: #F2EAFD;
+    padding: 2px;
+    font-family: 'sora';
+    font-size: 10px;
+    border-radius: 16px;
+}
+
+h1 {
+    font-size: 18px;
+    font-family: 'sora';
+    margin-top: 16px;
+    margin-bottom: 6px;
+    margin-left: 16px;
+    margin-right: 16px;
+    color: #20293A;
+    width: 336px;
+
+}
+
+p {
+    font-family: "sora";
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    color: #394150;
+
+    width: 336px;
+}
+
+#footer {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 12px;
+    font-family: 'sora';
+    color: #394150;
+    padding-top: 10px;
+    width: 336px;
+}
+
+@media screen and (max-width: 640px) {
+
+    /* Mobile styles */
+    #main {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* Tablet styles */
+    #main {
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    /* Desktop styles */
+    #main {
+        width: 40vw;
+    }
+}
